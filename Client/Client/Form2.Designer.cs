@@ -80,6 +80,8 @@ namespace Client
             this.dataGridView1.Size = new System.Drawing.Size(457, 250);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseUp);
+            this.dataGridView1.SelectionMode = DataGridViewSelectionMode.CellSelect;
+            this.dataGridView1.ClearSelection();
             // 
             // Column1
             // 

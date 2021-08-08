@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\altel\\source\\repos\\Server\\Server\\Server.csproj": {}
+    "C:\\Users\\altel\\source\\repos\\testC#\\Server\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\altel\\source\\repos\\Server\\Server\\Server.csproj": {
+    "C:\\Users\\altel\\source\\repos\\testC#\\Server\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\altel\\source\\repos\\Server\\Server\\Server.csproj",
+        "projectUniqueName": "C:\\Users\\altel\\source\\repos\\testC#\\Server\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\Users\\altel\\source\\repos\\Server\\Server\\Server.csproj",
+        "projectPath": "C:\\Users\\altel\\source\\repos\\testC#\\Server\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\altel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\altel\\source\\repos\\Server\\Server\\obj\\",
+        "outputPath": "C:\\Users\\altel\\source\\repos\\testC#\\Server\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

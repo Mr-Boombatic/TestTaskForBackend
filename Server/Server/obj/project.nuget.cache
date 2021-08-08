@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n/a/LSN63btbyRHLoQjiRZ9Xk9b8BCEy9Jv+hCJ08tnoy3KFODRyGVS1qnyxG3t5jMaZneIxwb/PjTbhXPHhaA==",
+  "dgSpecHash": "QS70tR8XYbfMx/veRs4kK6xXVLRfL89HxvsrnnzLbQu7N4PzQDWK674xwJdnOCn+rfMjSDFQ6VIamnlTttzZyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\altel\\source\\repos\\Server\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Users\\altel\\source\\repos\\testC#\\Server\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\altel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\altel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

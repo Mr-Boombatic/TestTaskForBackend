@@ -74,6 +74,7 @@ namespace Server.Controllers
                         winnerNums.Add(rnd.Next(1, 36));
 
                     circulation = new Circulation() { Circulation1 = ticket.СirculationNum, WinnerPosition = string.Join(";", winnerNums) + ";", Tickets = new List<Ticket>() };
+                    ticket.СirculationNumNavigation = circulation;
                     circulation.Tickets.Add(ticket);
                     db.Circulations.Add(circulation);
                     db.Tickets.Add(ticket);
@@ -103,7 +104,6 @@ namespace Server.Controllers
                 {
                     circulation = db.Circulations.Where(c => c.Circulation1 == ticket.СirculationNum).First();
                     replaceableTicket.СirculationNumNavigation = circulation;
-                    db.Circulations.Add(circulation);
                 }
                 else
                 {
@@ -119,6 +119,7 @@ namespace Server.Controllers
                         };
                     circulation.Tickets.Add(replaceableTicket);
                     replaceableTicket.СirculationNumNavigation = circulation;
+                    db.Circulations.Add(circulation);
                 }
 
                 db.SaveChanges();

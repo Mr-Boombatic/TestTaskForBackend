@@ -38,6 +38,7 @@ namespace Client
                     currentVal++;
                 }
             }
+            dataGridView1.Rows[0].Cells[0].Selected = false;
         }
         private void Form3_Load(object sender, EventArgs e)
         {
@@ -103,10 +104,20 @@ namespace Client
         {
             var selectedNumbers = new List<int>();
 
+            var countSelectedCell = 0;
             for (int i = 0; i < dataGridView1.Rows.Count; i++)
                 for (int j = 0; j < dataGridView1.Columns.Count; j++)
                     if (dataGridView1.Rows[i].Cells[j].Style.BackColor == Color.Blue)
+                    {
                         selectedNumbers.Add(int.Parse(dataGridView1.Rows[i].Cells[j].Value.ToString()));
+                        countSelectedCell++;
+                    }
+
+            if (countSelectedCell > 17 || countSelectedCell < 6)
+            {
+                MessageBox.Show("Количество выбранных позиций должно быть от 6 до 17!");
+                return;
+            }
 
             var ticket = new Ticket()
             {
